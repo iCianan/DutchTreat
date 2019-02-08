@@ -1,0 +1,44 @@
+﻿body {
+    font-family: Britannic
+}
+input[type=submit]{
+    width: auto;
+}
+
+input, textarea {
+    font-size: 15px;
+    width: 200px
+}
+
+label {
+    font-size: 12px;
+}
+#theForm{
+    background-color:lightgray
+}
+  #theForm input[type=submit] {
+    background-color: green;
+    color: white;
+}
+ul.product-props {
+    font-size: small;
+}
+ ul.product-props li {
+     list-style-type:none;
+     text-indent:-40px;
+ }
+ .product-info {
+     border:1px solid grey;
+     display: inline-block;
+     padding: 5px; 3px;
+     margin: 2px;
+     width: 450px;
+     background-color: lightgray;
+     border-radius: 5px
+ }
+ .product-info img {
+     margin: 3px;
+     float:right;
+     border:1px solid black;
+     max-width:150px;
+ }
