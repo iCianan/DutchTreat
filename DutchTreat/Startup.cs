@@ -21,7 +21,8 @@ namespace DutchTreat
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             app.UseDefaultFiles();
-            app.UseStaticFiles();    
+            app.UseStaticFiles();
+            app.UseNodeModules(env);
         }
     }
 }
