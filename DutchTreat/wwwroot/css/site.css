@@ -1,4 +1,6 @@
-﻿
+﻿.product-info img {
+  max-width: 150px;
+}
 /* body {
     font-family: Britannic
 }
