@@ -16,6 +16,6 @@
   var $popupForm = $(".popup-form");
 
   $loginToggle.on("click", function () {
-    $popupForm.slideToggle(1000);
+    $popupForm.fadeToggle(1000);
   });
 });
